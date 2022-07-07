@@ -3,6 +3,8 @@ import shutil
 
 from hatchling.builders.hooks.plugin.interface import BuildHookInterface
 
+# TODO Create a hook into metadata so that 'readme' includes 'release notes' as well!
+
 
 class HyphenateDistBuildHook(BuildHookInterface):
     PLUGIN_NAME = 'hyphenated-dist-directory'
